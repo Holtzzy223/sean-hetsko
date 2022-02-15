@@ -18,6 +18,13 @@ body{
     margin: 20px 20px;
     display: block
 }
+.portfolio-item img{
+    border: 10px lightslategray;
+    border-style: solid;
+    border-radius: 20px;
+}
 a{
     color: honeydew;
+    font-size: medium;
+    
 }
