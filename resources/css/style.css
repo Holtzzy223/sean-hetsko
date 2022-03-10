@@ -29,6 +29,9 @@ a{
     
 }
 
+.breadcrumb li{
+display: inline;
+}
 
 .glow-on-hover {
     width: 220px;
