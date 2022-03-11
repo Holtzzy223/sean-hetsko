@@ -1,6 +1,9 @@
 *{
     font-family: 'Courier New', Courier, monospace;
 }
+.breadcrumb{
+    text-align: center;
+}
 #page-title{
     
     font-weight: bold;
@@ -25,13 +28,13 @@ body{
 }
 a{
     color: honeydew;
-    font-size: medium;
-    
 }
 
 .breadcrumb li{
-display: inline;
-text-align: center;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    font-size: larger;
 }
 .breadcrumb li+li::before{
     content: "/ ";
