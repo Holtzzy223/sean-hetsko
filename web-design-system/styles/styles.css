@@ -91,3 +91,10 @@ body {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
   }
+  .breadcrumb li{
+    display: inline;
+    text-align: center;
+  }
+   .breadcrumb li+li::before{
+       content:"/ ";
+   }

@@ -31,6 +31,7 @@ a{
 
 .breadcrumb li{
 display: inline;
+text-align: center;
 }
 .breadcrumb li+li::before{
     content: "/ ";
